@@ -1,0 +1,20 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+
+# Storage backends
+boto3==1.35.90
+azure-storage-blob==12.24.0
+aiohttp==3.11.11
+
+# Vision / ML
+torch==2.5.1
+torchvision==0.20.1
+segmentation-models-pytorch==0.4.0
+albumentations==1.4.24
+kornia==0.7.4
+opencv-python-headless==4.10.0.84
+scipy==1.14.1
+numpy==2.1.3
+pillow==11.0.0
